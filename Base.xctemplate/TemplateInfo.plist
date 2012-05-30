@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files/</key>
+		<dict>
+			<key>Path</key>
+			<string>Supporting Files</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Supporting Files/Prefix.pch</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Beginning</key>
+			<string>//
+// Prefix header for all source files in the &apos;___PACKAGENAME___&apos; project
+//
+</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
+	<key>Identifier</key>
+	<string>com.1414degrees.base</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Supporting Files/</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Project Name</string>
+			<key>Description</key>
+			<string>The project&apos;s name.</string>
+			<key>EmptyReplacement</key>
+			<string>ProjectName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>GCC_C_LANGUAGE_STANDARD</key>
+			<string>gnu99</string>
+			<key>GCC_WARN_UNUSED_VARIABLE</key>
+			<string>YES</string>
+			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+			<string>YES</string>
+			<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
+			<string>YES</string>
+			<key>ALWAYS_SEARCH_USER_PATHS</key>
+			<string>NO</string>
+		</dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Debug</key>
+			<dict>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<string>DEBUG</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>___PACKAGENAME___</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>___PACKAGENAME___/Supporting Files/Prefix.pch</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

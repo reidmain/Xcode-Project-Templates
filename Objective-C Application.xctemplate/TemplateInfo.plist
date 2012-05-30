@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.1414degrees.bundleBase</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files/Info.plist:Basics</key>
+		<string>&lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;
+&lt;string&gt;6.0&lt;/string&gt;
+&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+&lt;string&gt;APPL&lt;/string&gt;
+&lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
+&lt;string&gt;en&lt;/string&gt;
+&lt;key&gt;CFBundleExecutable&lt;/key&gt;
+&lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;
+&lt;key&gt;CFBundleName&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+&lt;key&gt;CFBundleVersion&lt;/key&gt;
+&lt;string&gt;0&lt;/string&gt;
+&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+&lt;string&gt;1.0.0&lt;/string&gt;</string>
+		<key>Supporting Files/Prefix.pch:objC</key>
+		<dict>
+			<key>Beginning</key>
+			<string>#ifdef __OBJC__</string>
+			<key>End</key>
+			<string>#endif</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>Supporting Files/Prefix.pch:objC:importFoundation</key>
+		<string>#import &lt;Foundation/Foundation.h&gt;</string>
+		<key>Supporting Files/Prefix.pch:objC:importQuartzCore</key>
+		<string>#import &lt;QuartzCore/QuartzCore.h&gt;</string>
+	</dict>
+	<key>Identifier</key>
+	<string>com.1414degrees.objectiveCApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Supporting Files/Prefix.pch:objC</string>
+		<string>Supporting Files/Prefix.pch:objC:importFoundation</string>
+		<string>Supporting Files/Prefix.pch:objC:importQuartzCore</string>
+		<string>Supporting Files/Info.plist:Basics</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+			</array>
+			<key>ProductType</key>
+			<string>com.apple.product-type.application</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Foundation</string>
+				<string>CoreGraphics</string>
+				<string>QuartzCore</string>
+			</array>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Ad Hoc</key>
+			<dict>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<string>AD_HOC</string>
+			</dict>
+			<key>App Store</key>
+			<dict>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<string>APP_STORE</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
