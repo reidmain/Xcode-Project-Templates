@@ -65,6 +65,8 @@
 			<string>YES</string>
 			<key>ALWAYS_SEARCH_USER_PATHS</key>
 			<string>NO</string>
+			<key>CLANG_ENABLE_OBJC_ARC</key>
+			<string>YES</string>
 		</dict>
 		<key>Configurations</key>
 		<dict>

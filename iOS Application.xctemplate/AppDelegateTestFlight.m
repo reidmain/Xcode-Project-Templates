@@ -6,20 +6,7 @@
 
 @implementation AppDelegate
 {
-	@private UIWindow *_mainWindow;
-}
-
-
-#pragma mark -
-#pragma mark Destructor
-
-- (void)dealloc
-{
-	// Release instance variables.
-	[_mainWindow release];
-	
-	// Call the base destructor.
-	[super dealloc];
+	@private __strong UIWindow *_mainWindow;
 }
 
 
