@@ -437,6 +437,17 @@
 			<key>Path</key>
 			<string>launch_iphone@2x.png</string>
 		</dict>
+		<key>iPhone/Resources/Images/launch_iphone-568h@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>iPhone</string>
+				<string>Resources</string>
+				<string>Images</string>
+			</array>
+			<key>Path</key>
+			<string>launch_iphone-568h@2x.png</string>
+		</dict>
 		<key>Shared/</key>
 		<dict>
 			<key>Path</key>
@@ -697,6 +708,7 @@
 		<string>iPhone/Resources/Images/icon_iphone_spotlight@2x.png</string>
 		<string>iPhone/Resources/Images/launch_iphone.png</string>
 		<string>iPhone/Resources/Images/launch_iphone@2x.png</string>
+		<string>iPhone/Resources/Images/launch_iphone-568h@2x.png</string>
 		<string>iPhone/Resources/Images/Common/</string>
 		<string>iPhone/Classes/</string>
 		<string>iPhone/Classes/Controllers/</string>
