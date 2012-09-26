@@ -106,40 +106,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/Resources/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPad</string>
-			<key>Path</key>
-			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Resources/Images/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Images</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Resources/Images/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>iPad/Views/</key>
 		<dict>
 			<key>Group</key>
@@ -168,6 +134,40 @@
 				<string>iPad</string>
 				<string>Views</string>
 				<string>Controllers</string>
+			</array>
+			<key>Path</key>
+			<string>Common</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPad/Resources/</key>
+		<dict>
+			<key>Group</key>
+			<string>iPad</string>
+			<key>Path</key>
+			<string>Resources</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPad/Resources/Images/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>iPad</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Images</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPad/Resources/Images/Common/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>iPad</string>
+				<string>Resources</string>
+				<string>Images</string>
 			</array>
 			<key>Path</key>
 			<string>Common</string>
@@ -303,40 +303,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPhone/Resources/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPhone</string>
-			<key>Path</key>
-			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Images</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>iPhone/Views/</key>
 		<dict>
 			<key>Group</key>
@@ -365,6 +331,40 @@
 				<string>iPhone</string>
 				<string>Views</string>
 				<string>Controllers</string>
+			</array>
+			<key>Path</key>
+			<string>Common</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPhone/Resources/</key>
+		<dict>
+			<key>Group</key>
+			<string>iPhone</string>
+			<key>Path</key>
+			<string>Resources</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPhone/Resources/Images/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>iPhone</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Images</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>iPhone/Resources/Images/Common/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>iPhone</string>
+				<string>Resources</string>
+				<string>Images</string>
 			</array>
 			<key>Path</key>
 			<string>Common</string>
@@ -536,6 +536,39 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>Shared/Views/</key>
+		<dict>
+			<key>Group</key>
+			<string>Shared</string>
+			<key>Path</key>
+			<string>Views</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Shared/Views/Controllers/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Controllers</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Shared/Views/Controls/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Controls</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
 		<key>Shared/Resources/</key>
 		<dict>
 			<key>Group</key>
@@ -567,39 +600,6 @@
 			</array>
 			<key>Path</key>
 			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Views/</key>
-		<dict>
-			<key>Group</key>
-			<string>Shared</string>
-			<key>Path</key>
-			<string>Views</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Views/Controllers/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Shared</string>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Views/Controls/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Shared</string>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>Controls</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
@@ -678,15 +678,15 @@
 		<string>Shared/</string>
 		<string>Shared/AppDelegate.h</string>
 		<string>Shared/AppDelegate.m</string>
-		<string>Shared/Views/</string>
-		<string>Shared/Views/Controls/</string>
-		<string>Shared/Views/Controllers/</string>
 		<string>Shared/Resources/</string>
 		<string>Shared/Resources/InfoPlist.strings</string>
 		<string>Shared/Resources/Images/</string>
 		<string>Shared/Resources/Images/iTunesArtwork</string>
 		<string>Shared/Resources/Images/iTunesArtwork@2x</string>
 		<string>Shared/Resources/Images/Common/</string>
+		<string>Shared/Views/</string>
+		<string>Shared/Views/Controls/</string>
+		<string>Shared/Views/Controllers/</string>
 		<string>Shared/Classes/</string>
 		<string>Shared/Classes/Services/</string>
 		<string>Shared/Classes/Managers/</string>
@@ -695,9 +695,6 @@
 		<string>Shared/Classes/Controllers/</string>
 		<string>Shared/Classes/Common/</string>
 		<string>iPhone/</string>
-		<string>iPhone/Views/</string>
-		<string>iPhone/Views/Controllers/</string>
-		<string>iPhone/Views/Controllers/Common/</string>
 		<string>iPhone/Resources/</string>
 		<string>iPhone/Resources/Images/</string>
 		<string>iPhone/Resources/Images/icon_iphone.png</string>
@@ -708,13 +705,13 @@
 		<string>iPhone/Resources/Images/launch_iphone@2x.png</string>
 		<string>iPhone/Resources/Images/launch_iphone-568h@2x.png</string>
 		<string>iPhone/Resources/Images/Common/</string>
+		<string>iPhone/Views/</string>
+		<string>iPhone/Views/Controllers/</string>
+		<string>iPhone/Views/Controllers/Common/</string>
 		<string>iPhone/Classes/</string>
 		<string>iPhone/Classes/Controllers/</string>
 		<string>iPhone/Classes/Controllers/Common/</string>
 		<string>iPad/</string>
-		<string>iPad/Views/</string>
-		<string>iPad/Views/Controllers/</string>
-		<string>iPad/Views/Controllers/Common/</string>
 		<string>iPad/Resources/</string>
 		<string>iPad/Resources/Images/</string>
 		<string>iPad/Resources/Images/icon_ipad.png</string>
@@ -726,6 +723,9 @@
 		<string>iPad/Resources/Images/launch_ipad-Portrait@2x.png</string>
 		<string>iPad/Resources/Images/launch_ipad-Landscape@2x.png</string>
 		<string>iPad/Resources/Images/Common/</string>
+		<string>iPad/Views/</string>
+		<string>iPad/Views/Controllers/</string>
+		<string>iPad/Views/Controllers/Common/</string>
 		<string>iPad/Classes/</string>
 		<string>iPad/Classes/Controllers/</string>
 		<string>iPad/Classes/Controllers/Common/</string>
