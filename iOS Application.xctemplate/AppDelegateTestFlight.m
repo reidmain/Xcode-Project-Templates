@@ -46,7 +46,7 @@
 	}
 	
 	// Show the main window.
-    [_mainWindow makeKeyAndVisible];
+	[_mainWindow makeKeyAndVisible];
 	
 	// Indicate success.
 	return YES;

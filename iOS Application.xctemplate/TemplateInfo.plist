@@ -455,15 +455,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Frameworks/</key>
-		<dict>
-			<key>Group</key>
-			<string>Shared</string>
-			<key>Path</key>
-			<string>Frameworks</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>Shared/Classes/</key>
 		<dict>
 			<key>Group</key>
@@ -660,6 +651,13 @@
 			<key>Path</key>
 			<string>iTunesArtwork@2x</string>
 		</dict>
+		<key>Vendors/</key>
+		<dict>
+			<key>Path</key>
+			<string>Vendors/</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
 	</dict>
 	<key>Description</key>
 	<string>This template is the starting point for any iOS application built by 1414 Degrees.</string>
@@ -676,6 +674,7 @@
 		<string>Supporting Files/Info.plist:LaunchFiles</string>
 		<string>Supporting Files/main.m</string>
 		<string>Supporting Files/Entitlements.entitlements</string>
+		<string>Vendors/</string>
 		<string>Shared/</string>
 		<string>Shared/AppDelegate.h</string>
 		<string>Shared/AppDelegate.m</string>
@@ -695,7 +694,6 @@
 		<string>Shared/Classes/Controls/</string>
 		<string>Shared/Classes/Controllers/</string>
 		<string>Shared/Classes/Common/</string>
-		<string>Shared/Frameworks/</string>
 		<string>iPhone/</string>
 		<string>iPhone/Views/</string>
 		<string>iPhone/Views/Controllers/</string>
@@ -770,24 +768,22 @@
 					</dict>
 					<key>Definitions</key>
 					<dict>
-						<key>Shared/Frameworks/TestFlight/</key>
+						<key>Vendors/TestFlight/</key>
 						<dict>
 							<key>Group</key>
 							<array>
-								<string>Shared</string>
-								<string>Frameworks</string>
+								<string>Vendors</string>
 							</array>
 							<key>Path</key>
 							<string>TestFlight</string>
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
-						<key>Shared/Frameworks/TestFlight/TestFlight.h</key>
+						<key>Vendors/TestFlight/TestFlight.h</key>
 						<dict>
 							<key>Group</key>
 							<array>
-								<string>Shared</string>
-								<string>Frameworks</string>
+								<string>Vendors</string>
 								<string>TestFlight</string>
 							</array>
 							<key>Path</key>
@@ -795,12 +791,11 @@
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
-						<key>Shared/Frameworks/TestFlight/libTestFlight.a</key>
+						<key>Vendors/TestFlight/libTestFlight.a</key>
 						<dict>
 							<key>Group</key>
 							<array>
-								<string>Shared</string>
-								<string>Frameworks</string>
+								<string>Vendors</string>
 								<string>TestFlight</string>
 							</array>
 							<key>Path</key>
@@ -816,9 +811,9 @@
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Shared/Frameworks/TestFlight/</string>
-						<string>Shared/Frameworks/TestFlight/TestFlight.h</string>
-						<string>Shared/Frameworks/TestFlight/libTestFlight.a</string>
+						<string>Vendors/TestFlight/</string>
+						<string>Vendors/TestFlight/TestFlight.h</string>
+						<string>Vendors/TestFlight/libTestFlight.a</string>
 					</array>
 				</dict>
 			</dict>
