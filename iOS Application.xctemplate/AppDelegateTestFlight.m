@@ -16,14 +16,15 @@
 - (BOOL)application: (UIApplication *)application 
 	didFinishLaunchingWithOptions: (NSDictionary *)launchOptions
 {
-// Turn on TestFlight SDK for Ad Hoc builds.
+// Pass the device's UUID to TestFlight for Ad Hoc builds for better information about testers.
 #if defined(AD_HOC)
-	[TestFlight takeOff: @"___VARIABLE_testFlightTeamToken:identifier___"];
-	
 	UIDevice *currentDevice = [UIDevice currentDevice];
 	
 	[TestFlight setDeviceIdentifier: currentDevice.uniqueIdentifier];
 #endif
+	
+	// Start TestFlight.
+	[TestFlight takeOff: @"___VARIABLE_testFlightTeamToken:identifier___"];
 	
 	// Create the main window.
 	UIScreen *mainScreen = [UIScreen mainScreen];
