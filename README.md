@@ -8,33 +8,11 @@ Meer days after Xcode 4 was released [@borealkiss](http://twitter.com/borealkiss
 
 Installation
 ============
-
-0. Make the Library folder visible in Finder with the command "chflags nohidden ~/Library".
-1. Create a directory at ~/Library/Developer/Xcode/Templates/Project Templates/. The name of this directory will be what appears under "iOS" in the new project dialog in Xcode.
-2. Copy all .xctemplate folders to the folder you created in step 2.
-3. Because git does not track empty directories you need to create empty folders in the following locations:
-	* Base.xctemplate/Supporting Files/
-	* iOS Application.xctemplate/Categories/
-	* iOS Application.xctemplate/Classes/
-	* iOS Application.xctemplate/Common/
-	* iOS Application.xctemplate/Controllers/
-	* iOS Application.xctemplate/Controls/
-	* iOS Application.xctemplate/Frameworks/
-	* iOS Application.xctemplate/Images/
-	* iOS Application.xctemplate/iPad/
-	* iOS Application.xctemplate/iPhone/
-	* iOS Application.xctemplate/Managers/
-	* iOS Application.xctemplate/Resources/
-	* iOS Application.xctemplate/Services/
-	* iOS Application.xctemplate/Shared/
-	* iOS Application.xctemplate/TestFlight/
-	* iOS Application.xctemplate/Test/
-
-	I know creating all these empty folders is tedious. I am going to look into creating a simple script that will generate them.
+Run install.sh with the name of the folder you would like the templates to be copied to. If you don't provide a name it will default to "1414 Degrees".
 
 Known Bugs
 ==========
-There is one known bug with these templates. TestFlight v1.1 requires libz.dylib. I have not found out how to add libz.dylib to the project throught the Xcode project templating system so you must manually add libz.dylib to the "Link Binary With Libraries" section of "Build Phases" for all targets that use TestFlight.
+There is one known bug with these templates. TestFlight v1.1 requires libz.dylib. I have not found a way to add libz.dylib to the project throught the Xcode project templating system so you must manually add libz.dylib to the "Link Binary With Libraries" section of "Build Phases" for all targets that use TestFlight.
 
 Planned Enhancements
 ====================
