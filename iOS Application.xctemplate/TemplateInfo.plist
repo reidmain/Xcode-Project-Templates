@@ -18,22 +18,29 @@
 &lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;</string>
 		<key>Supporting Files/Info.plist:IconFiles</key>
-		<string>&lt;key&gt;CFBundleIconFiles&lt;/key&gt;
-&lt;array&gt;
-	&lt;string&gt;icon_iphone.png&lt;/string&gt;
-	&lt;string&gt;icon_iphone@2x.png&lt;/string&gt;
-	&lt;string&gt;icon_iphone_spotlight.png&lt;/string&gt;
-	&lt;string&gt;icon_iphone_spotlight@2x.png&lt;/string&gt;
-	&lt;string&gt;icon_ipad.png&lt;/string&gt;
-	&lt;string&gt;icon_ipad@2x.png&lt;/string&gt;
-	&lt;string&gt;icon_ipad_spotlight.png&lt;/string&gt;
-	&lt;string&gt;icon_ipad_spotlight@2x.png&lt;/string&gt;
-&lt;/array&gt;</string>
+		<string>&lt;key&gt;CFBundleIcons&lt;/key&gt;
+&lt;dict&gt;
+	&lt;key&gt;CFBundlePrimaryIcon&lt;/key&gt;
+	&lt;dict&gt;
+		&lt;key&gt;CFBundleIconFiles&lt;/key&gt;
+		&lt;array&gt;
+			&lt;string&gt;icon_iphone.png&lt;/string&gt;
+			&lt;string&gt;icon_iphone@2x.png&lt;/string&gt;
+			&lt;string&gt;icon_iphone_spotlight.png&lt;/string&gt;
+			&lt;string&gt;icon_iphone_spotlight@2x.png&lt;/string&gt;
+			&lt;string&gt;icon_ipad.png&lt;/string&gt;
+			&lt;string&gt;icon_ipad@2x.png&lt;/string&gt;
+			&lt;string&gt;icon_ipad_spotlight.png&lt;/string&gt;
+			&lt;string&gt;icon_ipad_spotlight@2x.png&lt;/string&gt;
+		&lt;/array&gt;
+		&lt;key&gt;UIPrerenderedIcon&lt;/key&gt;
+		&lt;false/&gt;
+	&lt;/dict&gt;
+&lt;/dict&gt;</string>
 		<key>Supporting Files/Info.plist:UISupportedInterfaceOrientations</key>
 		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
 &lt;array&gt;
      &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
-     &lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
      &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
      &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
 &lt;/array&gt;
