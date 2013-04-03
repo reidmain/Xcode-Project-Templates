@@ -57,11 +57,27 @@
 		<dict>
 			<key>GCC_C_LANGUAGE_STANDARD</key>
 			<string>gnu99</string>
+			<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+			<string>gnu++0x</string>
+			<key>CLANG_CXX_LIBRARY</key>
+			<string>libc++</string>
 			<key>GCC_WARN_UNUSED_VARIABLE</key>
+			<string>YES</string>
+			<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
 			<string>YES</string>
 			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
 			<string>YES</string>
 			<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
+			<string>YES</string>
+			<key>CLANG_WARN_EMPTY_BODY</key>
+			<string>YES</string>
+			<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_ENUM_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN_INT_CONVERSION</key>
+			<string>YES</string>
+			<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
 			<string>YES</string>
 			<key>ALWAYS_SEARCH_USER_PATHS</key>
 			<string>NO</string>
