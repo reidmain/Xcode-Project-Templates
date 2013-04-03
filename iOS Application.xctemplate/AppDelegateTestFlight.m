@@ -10,8 +10,7 @@
 }
 
 
-#pragma mark -
-#pragma mark UIApplicationDelegate Methods
+#pragma mark - UIApplicationDelegate Methods
 
 - (BOOL)application: (UIApplication *)application 
 	didFinishLaunchingWithOptions: (NSDictionary *)launchOptions
@@ -84,8 +83,7 @@
 }
 
 
-#pragma mark -
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 
-@end // @implementation AppDelegate
+@end

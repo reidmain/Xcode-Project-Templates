@@ -4,4 +4,4 @@
 	UIApplicationDelegate>
 
 
-@end // @interface AppDelegate
+@end
