@@ -1,5 +1,8 @@
 #import "AppDelegate.h"
 #import "TestFlight.h"
+#if !RELEASE_BUILD
+#import "FDVersionWindow.h"
+#endif
 
 
 #pragma mark Class Definition
@@ -7,6 +10,9 @@
 @implementation AppDelegate
 {
 	@private __strong UIWindow *_mainWindow;
+#if !RELEASE_BUILD
+	@private __strong FDVersionWindow *_versionWindow;
+#endif
 }
 
 
@@ -47,6 +53,9 @@
 	
 	// Show the main window.
 	[_mainWindow makeKeyAndVisible];
+	
+	// Create a version window which will sit atop the main window and display the application and build version in the status bar.
+	_versionWindow = [[FDVersionWindow alloc] init];
 	
 	// Indicate success.
 	return YES;

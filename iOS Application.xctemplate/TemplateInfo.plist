@@ -507,6 +507,45 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>Shared/Classes/Controls/Common</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Classes</string>
+				<string>Controls</string>
+			</array>
+			<key>Path</key>
+			<string>Common</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Shared/Classes/Controls/Common/FDVersionWindow.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Classes</string>
+				<string>Controls</string>
+				<string>Common</string>
+			</array>
+			<key>Path</key>
+			<string>FDVersionWindow.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Shared/Classes/Controls/Common/FDVersionWindow.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Classes</string>
+				<string>Controls</string>
+				<string>Common</string>
+			</array>
+			<key>Path</key>
+			<string>FDVersionWindow.m</string>
+		</dict>
 		<key>Shared/Classes/Categories/</key>
 		<dict>
 			<key>Group</key>
@@ -699,6 +738,9 @@
 		<string>Shared/Classes/Managers/</string>
 		<string>Shared/Classes/Categories/</string>
 		<string>Shared/Classes/Controls/</string>
+		<string>Shared/Classes/Controls/Common</string>
+		<string>Shared/Classes/Controls/Common/FDVersionWindow.h</string>
+		<string>Shared/Classes/Controls/Common/FDVersionWindow.m</string>
 		<string>Shared/Classes/Controllers/</string>
 		<string>Shared/Classes/Common/</string>
 		<string>iPhone/</string>
