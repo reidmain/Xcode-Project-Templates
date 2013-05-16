@@ -4,7 +4,7 @@ While working on personal projects I found myself constantly doing the same step
 
 Most of what I learned was by looking at Apple's own templates (which are located in /Xcode.app/Contents/Developer/Library/Xcode/Templates/Project Templates/ and /Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/) but one person in particular really helped me out.
 
-Meer days after Xcode 4 was released [@borealkiss](http://twitter.com/borealkiss) made [this great blog post](http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/) about their discoveries about Xcode 4's project templating system. If you are interested learning about Xcode 4's project templates you should definitely read that blog post and check out borealkiss' [templates](https://github.com/borealkiss/Minimal-Template).
+Mere days after Xcode 4 was released [@borealkiss](http://twitter.com/borealkiss) made [this great blog post](http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/) about their discoveries about Xcode 4's project templating system. If you are interested learning about Xcode 4's project templates you should definitely read that blog post and check out borealkiss' [templates](https://github.com/borealkiss/Minimal-Template).
 
 Installation
 ============
