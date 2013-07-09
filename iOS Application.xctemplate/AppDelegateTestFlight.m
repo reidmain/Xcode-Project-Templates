@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
 #import "TestFlight.h"
-#if !RELEASE_BUILD
+#ifndef APP_STORE
 #import "FDVersionWindow.h"
 #endif
 
@@ -10,7 +10,7 @@
 @implementation AppDelegate
 {
 	@private __strong UIWindow *_mainWindow;
-#if !RELEASE_BUILD
+#ifndef APP_STORE
 	@private __strong FDVersionWindow *_versionWindow;
 #endif
 }
@@ -21,15 +21,16 @@
 - (BOOL)application: (UIApplication *)application 
 	didFinishLaunchingWithOptions: (NSDictionary *)launchOptions
 {
-// Pass the device's UUID to TestFlight for Ad Hoc builds for better information about testers.
-#if defined(AD_HOC)
 	UIDevice *currentDevice = [UIDevice currentDevice];
 	
+	// Start TestFlight for Ad Hoc and App Store builds.
+#ifdef AD_HOC
+	// Pass the device's UUID to TestFlight for Ad Hoc builds for better information about testers.
 	[TestFlight setDeviceIdentifier: currentDevice.uniqueIdentifier];
+	[TestFlight takeOff: @"___VARIABLE_adHocTestFlightTeamToken:identifier___"];
+#elif defined APP_STORE
+	[TestFlight takeOff: @"___VARIABLE_appStoreTestFlightTeamToken:identifier___"];
 #endif
-	
-	// Start TestFlight.
-	[TestFlight takeOff: @"___VARIABLE_testFlightTeamToken:identifier___"];
 	
 	// Create the main window.
 	UIScreen *mainScreen = [UIScreen mainScreen];
@@ -40,8 +41,6 @@
 	_mainWindow.backgroundColor = [UIColor blackColor];
 	
 	// TODO: Create the root view controller based on what platform the app is running on.
-	UIDevice *currentDevice = [UIDevice currentDevice];
-	
 	UIUserInterfaceIdiom idiom = currentDevice.userInterfaceIdiom;
 	
 	if (idiom == UIUserInterfaceIdiomPad)
@@ -54,8 +53,10 @@
 	// Show the main window.
 	[_mainWindow makeKeyAndVisible];
 	
+#ifndef APP_STORE
 	// Create a version window which will sit atop the main window and display the application and build version in the status bar.
 	_versionWindow = [[FDVersionWindow alloc] init];
+#endif
 	
 	// Indicate success.
 	return YES;

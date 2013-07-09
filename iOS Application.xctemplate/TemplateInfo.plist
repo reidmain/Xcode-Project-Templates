@@ -874,11 +874,34 @@
 				<string>true</string>
 			</dict>
 			<key>Identifier</key>
-			<string>testFlightTeamToken</string>
+			<string>adHocTestFlightTeamToken</string>
 			<key>Name</key>
-			<string>TestFlight Team Token</string>
+			<string>Ad Hoc TestFlight Team Token</string>
+			<key>Default</key>
+			<string>adhoc_token</string>
 			<key>Description</key>
-			<string>The project&apos;s TestFlight Team Token.</string>
+			<string>The project&apos;s Ad Hoc TestFlight Team Token.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>testFlightEnabled</key>
+				<string>true</string>
+			</dict>
+			<key>Identifier</key>
+			<string>appStoreTestFlightTeamToken</string>
+			<key>Name</key>
+			<string>App Store TestFlight Team Token</string>
+			<key>Default</key>
+			<string>appstore_token</string>
+			<key>Description</key>
+			<string>The project&apos;s App Store TestFlight Team Token.</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Required</key>
