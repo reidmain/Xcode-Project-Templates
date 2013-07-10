@@ -29,7 +29,7 @@
 		</dict>
 		<key>Supporting Files/Info.plist:CFBundleIdentifier</key>
 		<string>&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
-&lt;string&gt;___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.${PRODUCT_NAME:rfc1034identifier}&lt;/string&gt;</string>
+&lt;string&gt;${BUNDLE_IDENTIFIER}&lt;/string&gt;</string>
 	</dict>
 	<key>Identifier</key>
 	<string>com.1414degrees.bundleBase</string>
@@ -94,5 +94,26 @@
 			</dict>
 		</dict>
 	</array>
+	<key>Project</key>
+	<dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Debug</key>
+			<dict>
+				<key>BUNDLE_IDENTIFIER</key>
+				<string>___VARIABLE_bundleIdentifier:bundleIdentifier___.debug</string>
+			</dict>
+			<key>Ad Hoc</key>
+			<dict>
+				<key>BUNDLE_IDENTIFIER</key>
+				<string>___VARIABLE_bundleIdentifier:bundleIdentifier___.adhoc</string>
+			</dict>
+			<key>App Store</key>
+			<dict>
+				<key>BUNDLE_IDENTIFIER</key>
+				<string>___VARIABLE_bundleIdentifier:bundleIdentifier___</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
