@@ -99,6 +99,20 @@
 				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
 				<string>NO</string>
 			</dict>
+			<key>Ad Hoc</key>
+			<dict>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+			</dict>
+			<key>App Store</key>
+			<dict>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>Targets</key>
