@@ -124,6 +124,8 @@
 				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
 				<key>HEADER_SEARCH_PATHS</key>
 				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
 			</dict>
 		</dict>
 	</dict>

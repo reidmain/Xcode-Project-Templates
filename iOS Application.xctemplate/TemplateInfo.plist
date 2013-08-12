@@ -931,8 +931,6 @@
 		<dict>
 			<key>Ad Hoc</key>
 			<dict>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -940,8 +938,6 @@
 			</dict>
 			<key>App Store</key>
 			<dict>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
