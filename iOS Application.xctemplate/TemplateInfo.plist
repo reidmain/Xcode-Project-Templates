@@ -31,11 +31,6 @@
 	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
 	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
 &lt;/array&gt;</string>
-		<key>Supporting Files/Info.plist:LaunchFiles</key>
-		<string>&lt;key&gt;UILaunchImageFile~iphone&lt;/key&gt;
-&lt;string&gt;launch_iphone.png&lt;/string&gt;
-&lt;key&gt;UILaunchImageFile~ipad&lt;/key&gt;
-&lt;string&gt;launch_ipad.png&lt;/string&gt;</string>
 		<key>Supporting Files/main.m</key>
 		<dict>
 			<key>Group</key>
@@ -161,50 +156,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Landscape.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Landscape.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Landscape@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Landscape@2x.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Portrait.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Portrait.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Portrait@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Portrait@2x.png</string>
-		</dict>
 		<key>iPhone/</key>
 		<dict>
 			<key>Path</key>
@@ -313,39 +264,6 @@
 			<string>Common</string>
 			<key>TargetIndices</key>
 			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone@2x.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone-568h@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone-568h@2x.png</string>
 		</dict>
 		<key>Shared/</key>
 		<dict>
@@ -537,8 +455,6 @@
 			</array>
 			<key>Path</key>
 			<string>Images.xcassets</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Shared/Resources/Images/Common/</key>
 		<dict>
@@ -620,7 +536,6 @@
 		<string>Supporting Files/Prefix.pch:objC:importUIKit</string>
 		<string>Supporting Files/Info.plist:iPhone</string>
 		<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations</string>
-		<string>Supporting Files/Info.plist:LaunchFiles</string>
 		<string>Supporting Files/main.m</string>
 		<string>Supporting Files/Entitlements.entitlements</string>
 		<string>Vendors/</string>
@@ -650,9 +565,6 @@
 		<string>iPhone/</string>
 		<string>iPhone/Resources/</string>
 		<string>iPhone/Resources/Images/</string>
-		<string>iPhone/Resources/Images/launch_iphone.png</string>
-		<string>iPhone/Resources/Images/launch_iphone@2x.png</string>
-		<string>iPhone/Resources/Images/launch_iphone-568h@2x.png</string>
 		<string>iPhone/Resources/Images/Common/</string>
 		<string>iPhone/Views/</string>
 		<string>iPhone/Views/Controllers/</string>
@@ -663,10 +575,6 @@
 		<string>iPad/</string>
 		<string>iPad/Resources/</string>
 		<string>iPad/Resources/Images/</string>
-		<string>iPad/Resources/Images/launch_ipad-Portrait.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Landscape.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Portrait@2x.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Landscape@2x.png</string>
 		<string>iPad/Resources/Images/Common/</string>
 		<string>iPad/Views/</string>
 		<string>iPad/Views/Controllers/</string>
@@ -852,6 +760,8 @@
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
 			</dict>
 		</dict>
 	</array>
