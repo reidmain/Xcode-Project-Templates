@@ -610,19 +610,6 @@
 			<dict>
 				<key>true</key>
 				<dict>
-					<key>Project</key>
-					<dict>
-						<key>Configurations</key>
-						<dict>
-							<key>Ad Hoc</key>
-							<dict>
-								<key>DEPLOYMENT_POSTPROCESSING</key>
-								<string>NO</string>
-								<key>STRIP_INSTALLED_PRODUCT</key>
-								<string>NO</string>
-							</dict>
-						</dict>
-					</dict>
 					<key>Definitions</key>
 					<dict>
 						<key>Vendors/TestFlight/</key>
@@ -648,6 +635,30 @@
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
+						<key>Vendors/TestFlight/TestFlight+AsyncLogging.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Vendors</string>
+								<string>TestFlight</string>
+							</array>
+							<key>Path</key>
+							<string>TestFlight+AsyncLogging.h</string>
+							<key>TargetIndices</key>
+							<array/>
+						</dict>
+						<key>Vendors/TestFlight/TestFlight+ManualSessions.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Vendors</string>
+								<string>TestFlight</string>
+							</array>
+							<key>Path</key>
+							<string>TestFlight+ManualSessions.h</string>
+							<key>TargetIndices</key>
+							<array/>
+						</dict>
 						<key>Vendors/TestFlight/libTestFlight.a</key>
 						<dict>
 							<key>Group</key>
@@ -670,6 +681,8 @@
 					<array>
 						<string>Vendors/TestFlight/</string>
 						<string>Vendors/TestFlight/TestFlight.h</string>
+						<string>Vendors/TestFlight/TestFlight+AsyncLogging.h</string>
+						<string>Vendors/TestFlight/TestFlight+ManualSessions.h</string>
 						<string>Vendors/TestFlight/libTestFlight.a</string>
 					</array>
 				</dict>
