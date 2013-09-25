@@ -762,10 +762,26 @@
 			</array>
 			<key>SharedSettings</key>
 			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
 				<string>LaunchImage</string>
+			</dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Debug</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon_Debug</string>
+				</dict>
+				<key>Ad Hoc</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon_Ad_Hoc</string>
+				</dict>
+				<key>App Store</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon</string>
+				</dict>
 			</dict>
 		</dict>
 	</array>
