@@ -16,7 +16,11 @@
 		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
 &lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
 &lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
-&lt;true/&gt;</string>
+&lt;true/&gt;
+&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;armv7&lt;/string&gt;
+&lt;/array&gt;</string>
 		<key>Supporting Files/Info.plist:UISupportedInterfaceOrientations</key>
 		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
 &lt;array&gt;
@@ -720,8 +724,8 @@
 		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
-			<key>GCC_VERSION</key>
-			<string>com.apple.compilers.llvm.clang.1_0</string>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>latest_iphoneos</string>
 			<key>TARGETED_DEVICE_FAMILY</key>

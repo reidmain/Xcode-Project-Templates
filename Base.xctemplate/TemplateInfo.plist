@@ -73,6 +73,8 @@
 			<string>YES</string>
 			<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
 			<string>YES</string>
+			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+			<string>YES</string>
 			<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
 			<string>YES</string>
 			<key>CLANG_WARN_EMPTY_BODY</key>
