@@ -16,27 +16,11 @@
 		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
 &lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
 &lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
-&lt;true/&gt;</string>
-		<key>Supporting Files/Info.plist:IconFiles</key>
-		<string>&lt;key&gt;CFBundleIcons&lt;/key&gt;
-&lt;dict&gt;
-	&lt;key&gt;CFBundlePrimaryIcon&lt;/key&gt;
-	&lt;dict&gt;
-		&lt;key&gt;CFBundleIconFiles&lt;/key&gt;
-		&lt;array&gt;
-			&lt;string&gt;icon_iphone.png&lt;/string&gt;
-			&lt;string&gt;icon_iphone@2x.png&lt;/string&gt;
-			&lt;string&gt;icon_iphone_spotlight.png&lt;/string&gt;
-			&lt;string&gt;icon_iphone_spotlight@2x.png&lt;/string&gt;
-			&lt;string&gt;icon_ipad.png&lt;/string&gt;
-			&lt;string&gt;icon_ipad@2x.png&lt;/string&gt;
-			&lt;string&gt;icon_ipad_spotlight.png&lt;/string&gt;
-			&lt;string&gt;icon_ipad_spotlight@2x.png&lt;/string&gt;
-		&lt;/array&gt;
-		&lt;key&gt;UIPrerenderedIcon&lt;/key&gt;
-		&lt;false/&gt;
-	&lt;/dict&gt;
-&lt;/dict&gt;</string>
+&lt;true/&gt;
+&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;armv7&lt;/string&gt;
+&lt;/array&gt;</string>
 		<key>Supporting Files/Info.plist:UISupportedInterfaceOrientations</key>
 		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
 &lt;array&gt;
@@ -51,11 +35,6 @@
 	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
 	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
 &lt;/array&gt;</string>
-		<key>Supporting Files/Info.plist:LaunchFiles</key>
-		<string>&lt;key&gt;UILaunchImageFile~iphone&lt;/key&gt;
-&lt;string&gt;launch_iphone.png&lt;/string&gt;
-&lt;key&gt;UILaunchImageFile~ipad&lt;/key&gt;
-&lt;string&gt;launch_ipad.png&lt;/string&gt;</string>
 		<key>Supporting Files/main.m</key>
 		<dict>
 			<key>Group</key>
@@ -181,94 +160,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/Resources/Images/icon_ipad.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_ipad.png</string>
-		</dict>
-		<key>iPad/Resources/Images/icon_ipad@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_ipad@2x.png</string>
-		</dict>
-		<key>iPad/Resources/Images/icon_ipad_spotlight.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_ipad_spotlight.png</string>
-		</dict>
-		<key>iPad/Resources/Images/icon_ipad_spotlight@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_ipad_spotlight@2x.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Landscape.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Landscape.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Landscape@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Landscape@2x.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Portrait.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Portrait.png</string>
-		</dict>
-		<key>iPad/Resources/Images/launch_ipad-Portrait@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_ipad-Portrait@2x.png</string>
-		</dict>
 		<key>iPhone/</key>
 		<dict>
 			<key>Path</key>
@@ -377,83 +268,6 @@
 			<string>Common</string>
 			<key>TargetIndices</key>
 			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/icon_iphone.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_iphone.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/icon_iphone@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_iphone@2x.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/icon_iphone_spotlight.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_iphone_spotlight.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/icon_iphone_spotlight@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>icon_iphone_spotlight@2x.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone@2x.png</string>
-		</dict>
-		<key>iPhone/Resources/Images/launch_iphone-568h@2x.png</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>launch_iphone-568h@2x.png</string>
 		</dict>
 		<key>Shared/</key>
 		<dict>
@@ -636,6 +450,16 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>Shared/Resources/Images/Images.xcassets</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+		</dict>
 		<key>Shared/Resources/Images/Common/</key>
 		<dict>
 			<key>Group</key>
@@ -715,9 +539,7 @@
 	<array>
 		<string>Supporting Files/Prefix.pch:objC:importUIKit</string>
 		<string>Supporting Files/Info.plist:iPhone</string>
-		<string>Supporting Files/Info.plist:IconFiles</string>
 		<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations</string>
-		<string>Supporting Files/Info.plist:LaunchFiles</string>
 		<string>Supporting Files/main.m</string>
 		<string>Supporting Files/Entitlements.entitlements</string>
 		<string>Vendors/</string>
@@ -727,6 +549,7 @@
 		<string>Shared/Resources/</string>
 		<string>Shared/Resources/InfoPlist.strings</string>
 		<string>Shared/Resources/Images/</string>
+		<string>Shared/Resources/Images/Images.xcassets</string>
 		<string>Shared/Resources/Images/iTunesArtwork</string>
 		<string>Shared/Resources/Images/iTunesArtwork@2x</string>
 		<string>Shared/Resources/Images/Common/</string>
@@ -746,13 +569,6 @@
 		<string>iPhone/</string>
 		<string>iPhone/Resources/</string>
 		<string>iPhone/Resources/Images/</string>
-		<string>iPhone/Resources/Images/icon_iphone.png</string>
-		<string>iPhone/Resources/Images/icon_iphone@2x.png</string>
-		<string>iPhone/Resources/Images/icon_iphone_spotlight.png</string>
-		<string>iPhone/Resources/Images/icon_iphone_spotlight@2x.png</string>
-		<string>iPhone/Resources/Images/launch_iphone.png</string>
-		<string>iPhone/Resources/Images/launch_iphone@2x.png</string>
-		<string>iPhone/Resources/Images/launch_iphone-568h@2x.png</string>
 		<string>iPhone/Resources/Images/Common/</string>
 		<string>iPhone/Views/</string>
 		<string>iPhone/Views/Controllers/</string>
@@ -763,14 +579,6 @@
 		<string>iPad/</string>
 		<string>iPad/Resources/</string>
 		<string>iPad/Resources/Images/</string>
-		<string>iPad/Resources/Images/icon_ipad.png</string>
-		<string>iPad/Resources/Images/icon_ipad@2x.png</string>
-		<string>iPad/Resources/Images/icon_ipad_spotlight.png</string>
-		<string>iPad/Resources/Images/icon_ipad_spotlight@2x.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Portrait.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Landscape.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Portrait@2x.png</string>
-		<string>iPad/Resources/Images/launch_ipad-Landscape@2x.png</string>
 		<string>iPad/Resources/Images/Common/</string>
 		<string>iPad/Views/</string>
 		<string>iPad/Views/Controllers/</string>
@@ -916,8 +724,8 @@
 		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
-			<key>GCC_VERSION</key>
-			<string>com.apple.compilers.llvm.clang.1_0</string>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>latest_iphoneos</string>
 			<key>TARGETED_DEVICE_FAMILY</key>
@@ -931,8 +739,6 @@
 		<dict>
 			<key>Ad Hoc</key>
 			<dict>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -940,8 +746,6 @@
 			</dict>
 			<key>App Store</key>
 			<dict>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -956,6 +760,29 @@
 			<array>
 				<string>UIKit</string>
 			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+			</dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Debug</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon_Debug</string>
+				</dict>
+				<key>Ad Hoc</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon_Ad_Hoc</string>
+				</dict>
+				<key>App Store</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon</string>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>
