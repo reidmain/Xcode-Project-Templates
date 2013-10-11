@@ -135,31 +135,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/Resources/Images/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Images</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Resources/Images/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>iPhone/</key>
 		<dict>
 			<key>Path</key>
@@ -241,31 +216,6 @@
 			<string>iPhone</string>
 			<key>Path</key>
 			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Images</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Resources/Images/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
@@ -438,19 +388,7 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Resources/Images/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Shared</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Images</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Resources/Images/Images.xcassets</key>
+		<key>Shared/Resources/Images.xcassets</key>
 		<dict>
 			<key>Group</key>
 			<array>
@@ -459,19 +397,6 @@
 			</array>
 			<key>Path</key>
 			<string>Images.xcassets</string>
-		</dict>
-		<key>Shared/Resources/Images/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Shared</string>
-				<string>Resources</string>
-				<string>Images</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Shared/AppDelegate.h</key>
 		<dict>
@@ -499,24 +424,22 @@
 			<key>Path</key>
 			<string>InfoPlist.strings</string>
 		</dict>
-		<key>Shared/Resources/Images/iTunesArtwork</key>
+		<key>Shared/Resources/iTunesArtwork</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Shared</string>
 				<string>Resources</string>
-				<string>Images</string>
 			</array>
 			<key>Path</key>
 			<string>iTunesArtwork</string>
 		</dict>
-		<key>Shared/Resources/Images/iTunesArtwork@2x</key>
+		<key>Shared/Resources/iTunesArtwork@2x</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Shared</string>
 				<string>Resources</string>
-				<string>Images</string>
 			</array>
 			<key>Path</key>
 			<string>iTunesArtwork@2x</string>
@@ -547,12 +470,10 @@
 		<string>Shared/AppDelegate.h</string>
 		<string>Shared/AppDelegate.m</string>
 		<string>Shared/Resources/</string>
+		<string>Shared/Resources/Images.xcassets</string>
 		<string>Shared/Resources/InfoPlist.strings</string>
-		<string>Shared/Resources/Images/</string>
-		<string>Shared/Resources/Images/Images.xcassets</string>
-		<string>Shared/Resources/Images/iTunesArtwork</string>
-		<string>Shared/Resources/Images/iTunesArtwork@2x</string>
-		<string>Shared/Resources/Images/Common/</string>
+		<string>Shared/Resources/iTunesArtwork</string>
+		<string>Shared/Resources/iTunesArtwork@2x</string>
 		<string>Shared/Views/</string>
 		<string>Shared/Views/Controls/</string>
 		<string>Shared/Views/Controllers/</string>
@@ -568,8 +489,6 @@
 		<string>Shared/Classes/Common/</string>
 		<string>iPhone/</string>
 		<string>iPhone/Resources/</string>
-		<string>iPhone/Resources/Images/</string>
-		<string>iPhone/Resources/Images/Common/</string>
 		<string>iPhone/Views/</string>
 		<string>iPhone/Views/Controllers/</string>
 		<string>iPhone/Views/Controllers/Common/</string>
@@ -578,8 +497,6 @@
 		<string>iPhone/Classes/Controllers/Common/</string>
 		<string>iPad/</string>
 		<string>iPad/Resources/</string>
-		<string>iPad/Resources/Images/</string>
-		<string>iPad/Resources/Images/Common/</string>
 		<string>iPad/Views/</string>
 		<string>iPad/Views/Controllers/</string>
 		<string>iPad/Views/Controllers/Common/</string>
