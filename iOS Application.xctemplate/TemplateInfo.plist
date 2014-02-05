@@ -322,6 +322,18 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>Shared/Classes/Models/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Shared</string>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Models</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
 		<key>Shared/Classes/Managers/</key>
 		<dict>
 			<key>Group</key>
@@ -480,6 +492,7 @@
 		<string>Shared/Classes/</string>
 		<string>Shared/Classes/Services/</string>
 		<string>Shared/Classes/Managers/</string>
+		<string>Shared/Classes/Models/</string>
 		<string>Shared/Classes/Categories/</string>
 		<string>Shared/Classes/Controls/</string>
 		<string>Shared/Classes/Controls/Common</string>
