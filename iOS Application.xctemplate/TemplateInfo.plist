@@ -11,7 +11,7 @@
 	<key>Definitions</key>
 	<dict>
 		<key>Supporting Files/Prefix.pch:objC:importUIKit</key>
-		<string>#import &lt;UIKIt/UIKit.h&gt;</string>
+		<string>@import UIKit;</string>
 		<key>Supporting Files/Info.plist:iPhone</key>
 		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
 &lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;

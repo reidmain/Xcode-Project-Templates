@@ -33,9 +33,9 @@
 			<integer>1</integer>
 		</dict>
 		<key>Supporting Files/Prefix.pch:objC:importFoundation</key>
-		<string>#import &lt;Foundation/Foundation.h&gt;</string>
+		<string>@import Foundation;</string>
 		<key>Supporting Files/Prefix.pch:objC:importQuartzCore</key>
-		<string>#import &lt;QuartzCore/QuartzCore.h&gt;</string>
+		<string>@import QuartzCore;</string>
 	</dict>
 	<key>Identifier</key>
 	<string>com.1414degrees.objectiveCApplication</string>
