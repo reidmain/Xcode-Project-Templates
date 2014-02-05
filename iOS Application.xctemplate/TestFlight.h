@@ -6,7 +6,7 @@
 //  Copyright 2011 TestFlight. All rights reserved.
 
 #import <Foundation/Foundation.h>
-#define TESTFLIGHT_SDK_VERSION @"2.0.0"
+#define TESTFLIGHT_SDK_VERSION @"2.2.1"
 #undef TFLog
 
 #if __cplusplus
@@ -41,7 +41,12 @@ extern "C" {
 
 
 /**
- * Starts a TestFlight session using the Application Token for this Application
+ * Sets up TestFlight's infrastructure.
+ *
+ * - Saves App Token
+ * - Starts automatic session management
+ * - Installs Crash Handlers
+ * - Kicks off sending of old session data
  *
  * @param applicationToken Will be the application token for the current application.
  *                         The token for this application can be retrieved by going to https://testflightapp.com/dashboard/applications/
@@ -77,20 +82,7 @@ extern "C" {
 /**
  * Sets the Device Identifier.
  *
- * !! DO NOT CALL IN SUBMITTED APP STORE APP.
- *
- * !! MUST BE CALLED BEFORE +takeOff:
- *
- * This method should only be used during testing so that you can identify a testers test data with them.
- * If you do not provide the identifier you will still see all session data, with checkpoints
- * and logs, but the data will be anonymized.
- * 
- * It is recommended that you only use this method during testing.
- * Apple may reject your app if left in a submitted app.
- *
- * Use:
- * Only use this with the Apple device UDID. DO NOT use Open ID or your own identifier.
- * [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+ * This is currently unnecessary and is left here to support legacy code.
  *
  * @param deviceIdentifer The current devices device identifier
  */

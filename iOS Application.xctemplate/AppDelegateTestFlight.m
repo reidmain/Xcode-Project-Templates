@@ -21,12 +21,8 @@
 - (BOOL)application: (UIApplication *)application 
 	didFinishLaunchingWithOptions: (NSDictionary *)launchOptions
 {
-	UIDevice *currentDevice = [UIDevice currentDevice];
-	
 	// Start TestFlight for Ad Hoc and App Store builds.
 #ifdef AD_HOC
-	// Pass the device's UUID to TestFlight for Ad Hoc builds for better information about testers.
-	[TestFlight setDeviceIdentifier: currentDevice.uniqueIdentifier];
 	[TestFlight takeOff: @"___VARIABLE_adHocTestFlightTeamToken:identifier___"];
 #elif defined APP_STORE
 	[TestFlight takeOff: @"___VARIABLE_appStoreTestFlightTeamToken:identifier___"];
@@ -41,6 +37,7 @@
 	_mainWindow.backgroundColor = [UIColor blackColor];
 	
 	// TODO: Create the root view controller based on what platform the app is running on.
+	UIDevice *currentDevice = [UIDevice currentDevice];
 	UIUserInterfaceIdiom idiom = currentDevice.userInterfaceIdiom;
 	
 	if (idiom == UIUserInterfaceIdiomPad)
