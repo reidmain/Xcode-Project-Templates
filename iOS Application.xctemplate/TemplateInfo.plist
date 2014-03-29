@@ -667,8 +667,6 @@
 		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
-			<key>ARCHS</key>
-			<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>latest_iphoneos</string>
 			<key>TARGETED_DEVICE_FAMILY</key>

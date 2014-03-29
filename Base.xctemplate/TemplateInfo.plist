@@ -64,14 +64,12 @@
 			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
 			<string>YES_ERROR</string>
 			<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-			<string>YES</string>
+			<string>YES_AGGRESSIVE</string>
 			<key>GCC_WARN_UNUSED_VARIABLE</key>
 			<string>YES</string>
 			<key>GCC_WARN_UNUSED_FUNCTION</key>
 			<string>YES</string>
 			<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-			<string>YES</string>
-			<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
 			<string>YES</string>
 			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
 			<string>YES</string>
