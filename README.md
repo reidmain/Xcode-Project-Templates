@@ -1,6 +1,6 @@
 Overview
 ========
-While working on personal projects I found myself constantly doing the same steps over and over again whenever I would create a new project. So I decided to jump into unknown world that is "Xcode 4 Project Template documentation" and figure out how to create my own project template.
+While working on personal projects I found myself constantly doing the same steps over and over again whenever I would create a new project. So I decided to jump into unknown world that is "Xcode Project Template documentation" and figure out how to create my own project template.
 
 Most of what I learned was by looking at Apple's own templates (which are located in /Xcode.app/Contents/Developer/Library/Xcode/Templates/Project Templates/ and /Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/) but one person in particular really helped me out.
 
@@ -9,10 +9,6 @@ Mere days after Xcode 4 was released [@borealkiss](http://twitter.com/borealkiss
 Installation
 ============
 Run install.sh with the name of the folder you would like the templates to be copied to. If you don't provide a name it will default to "1414 Degrees".
-
-Known Bugs
-==========
-There is one known bug with these templates. TestFlight v1.1 requires libz.dylib. I have not found a way to add libz.dylib to the project throught the Xcode project templating system so you must manually add libz.dylib to the "Link Binary With Libraries" section of "Build Phases" for all targets that use TestFlight.
 
 Planned Enhancements
 ====================

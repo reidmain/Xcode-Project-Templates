@@ -525,11 +525,11 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>testFlightEnabled</string>
+			<string>HockeyAppEnabled</string>
 			<key>Name</key>
-			<string>Enable TestFlight</string>
+			<string>Enable HockeyApp</string>
 			<key>Description</key>
-			<string>Indicates whether or not TestFlight should be included.</string>
+			<string>Indicates whether or not HockeyApp should be included.</string>
 			<key>Type</key>
 			<string>checkbox</string>
 			<key>Default</key>
@@ -542,78 +542,93 @@
 				<dict>
 					<key>Definitions</key>
 					<dict>
-						<key>Vendors/TestFlight/</key>
+						<key>Vendors/HockeyApp/</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Vendors</string>
 							</array>
 							<key>Path</key>
-							<string>TestFlight</string>
+							<string>HockeyApp</string>
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
-						<key>Vendors/TestFlight/TestFlight.h</key>
+						<key>Vendors/HockeyApp/HockeySDK.embeddedframework</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Vendors</string>
-								<string>TestFlight</string>
+								<string>HockeyApp</string>
 							</array>
 							<key>Path</key>
-							<string>TestFlight.h</string>
+							<string>HockeyApp</string>
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
-						<key>Vendors/TestFlight/TestFlight+AsyncLogging.h</key>
+						<key>Vendors/HockeyApp/HockeySDK.embeddedframework/HockeySDK.framework</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Vendors</string>
-								<string>TestFlight</string>
+								<string>HockeyApp</string>
+								<string>HockeySDK.embeddedframework</string>
 							</array>
 							<key>Path</key>
-							<string>TestFlight+AsyncLogging.h</string>
+							<string>HockeySDK.embeddedframework/HockeySDK.framework</string>
+						</dict>
+						<key>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Vendors</string>
+								<string>HockeyApp</string>
+								<string>HockeySDK.embeddedframework</string>
+							</array>
+							<key>Path</key>
+							<string>Resources</string>
 							<key>TargetIndices</key>
 							<array/>
 						</dict>
-						<key>Vendors/TestFlight/TestFlight+ManualSessions.h</key>
+						<key>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources/HockeySDK.xcconfig</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Vendors</string>
-								<string>TestFlight</string>
+								<string>HockeyApp</string>
+								<string>HockeySDK.embeddedframework</string>
+								<string>Resources</string>
 							</array>
 							<key>Path</key>
-							<string>TestFlight+ManualSessions.h</string>
-							<key>TargetIndices</key>
-							<array/>
+							<string>HockeySDK.embeddedframework/Resources/HockeySDK.xcconfig</string>
 						</dict>
-						<key>Vendors/TestFlight/libTestFlight.a</key>
+						<key>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources/HockeySDKResources.bundle</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Vendors</string>
-								<string>TestFlight</string>
+								<string>HockeyApp</string>
+								<string>HockeySDK.embeddedframework</string>
+								<string>Resources</string>
 							</array>
 							<key>Path</key>
-							<string>libTestFlight.a</string>
+							<string>HockeySDK.embeddedframework/Resources/HockeySDKResources.bundle</string>
 						</dict>
 						<key>Shared/AppDelegate.m</key>
 						<dict>
 							<key>Group</key>
 							<string>Shared</string>
 							<key>Path</key>
-							<string>AppDelegateTestFlight.m</string>
+							<string>AppDelegateHockeyApp.m</string>
 						</dict>
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Vendors/TestFlight/</string>
-						<string>Vendors/TestFlight/TestFlight.h</string>
-						<string>Vendors/TestFlight/TestFlight+AsyncLogging.h</string>
-						<string>Vendors/TestFlight/TestFlight+ManualSessions.h</string>
-						<string>Vendors/TestFlight/libTestFlight.a</string>
+						<string>Vendors/HockeyApp/</string>
+						<string>Vendors/HockeyApp/HockeySDK.embeddedframework</string>
+						<string>Vendors/HockeyApp/HockeySDK.embeddedframework/HockeySDK.framework</string>
+						<string>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources</string>
+						<string>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources/HockeySDK.xcconfig</string>
+						<string>Vendors/HockeyApp/HockeySDK.embeddedframework/Resources/HockeySDKResources.bundle</string>
 					</array>
 				</dict>
 			</dict>
@@ -621,17 +636,17 @@
 		<dict>
 			<key>RequiredOptions</key>
 			<dict>
-				<key>testFlightEnabled</key>
+				<key>HockeyAppEnabled</key>
 				<string>true</string>
 			</dict>
 			<key>Identifier</key>
-			<string>adHocTestFlightTeamToken</string>
+			<string>adHocHockeyAppID</string>
 			<key>Name</key>
-			<string>Ad Hoc TestFlight Team Token</string>
+			<string>Ad Hoc HockeyApp App ID</string>
 			<key>Default</key>
-			<string>adhoc_token</string>
+			<string>adhoc_app_id</string>
 			<key>Description</key>
-			<string>The project&apos;s Ad Hoc TestFlight Team Token.</string>
+			<string>The project&apos;s Ad Hoc HockeyApp App ID.</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Required</key>
@@ -642,17 +657,17 @@
 		<dict>
 			<key>RequiredOptions</key>
 			<dict>
-				<key>testFlightEnabled</key>
+				<key>HockeyAppEnabled</key>
 				<string>true</string>
 			</dict>
 			<key>Identifier</key>
-			<string>appStoreTestFlightTeamToken</string>
+			<string>appStoreHockeyAppID</string>
 			<key>Name</key>
-			<string>App Store TestFlight Team Token</string>
+			<string>App Store HockeyApp App ID</string>
 			<key>Default</key>
-			<string>appstore_token</string>
+			<string>appstore_app_id</string>
 			<key>Description</key>
-			<string>The project&apos;s App Store TestFlight Team Token.</string>
+			<string>The project&apos;s App Store HockeyApp App ID.</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Required</key>
