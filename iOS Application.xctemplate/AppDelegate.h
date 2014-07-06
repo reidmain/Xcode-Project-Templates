@@ -1,6 +1,6 @@
 #pragma mark Class Interface
 
-@interface AppDelegate : NSObject<
+@interface AppDelegate : UIResponder<
 	UIApplicationDelegate>
 
 
