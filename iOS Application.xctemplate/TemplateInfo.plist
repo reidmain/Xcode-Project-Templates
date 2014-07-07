@@ -51,195 +51,17 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/</key>
+		<key>Classes/</key>
 		<dict>
-			<key>Path</key>
-			<string>iPad</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Classes/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPad</string>
 			<key>Path</key>
 			<string>Classes</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>iPad/Classes/Controllers/</key>
+		<key>Classes/Common/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>iPad</string>
-				<string>Classes</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Classes/Controllers/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Classes</string>
-				<string>Controllers</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Views/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPad</string>
-			<key>Path</key>
-			<string>Views</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Views/Controllers/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Views/Controllers/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPad</string>
-				<string>Views</string>
-				<string>Controllers</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPad/Resources/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPad</string>
-			<key>Path</key>
-			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/</key>
-		<dict>
-			<key>Path</key>
-			<string>iPhone</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Classes/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPhone</string>
-			<key>Path</key>
-			<string>Classes</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Classes/Controllers/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Classes</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Classes/Controllers/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Classes</string>
-				<string>Controllers</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Views/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPhone</string>
-			<key>Path</key>
-			<string>Views</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Views/Controllers/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Views/Controllers/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>iPhone</string>
-				<string>Views</string>
-				<string>Controllers</string>
-			</array>
-			<key>Path</key>
-			<string>Common</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>iPhone/Resources/</key>
-		<dict>
-			<key>Group</key>
-			<string>iPhone</string>
-			<key>Path</key>
-			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/</key>
-		<dict>
-			<key>Path</key>
-			<string>Shared</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Classes/</key>
-		<dict>
-			<key>Group</key>
-			<string>Shared</string>
-			<key>Path</key>
-			<string>Classes</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/Classes/Common/</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -247,11 +69,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Controllers/</key>
+		<key>Classes/Controllers/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -259,11 +80,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Controls/</key>
+		<key>Classes/Controls/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -271,11 +91,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Controls/Common</key>
+		<key>Classes/Controls/Common</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 				<string>Controls</string>
 			</array>
@@ -284,11 +103,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Controls/Common/FDVersionWindow.h</key>
+		<key>Classes/Controls/Common/FDVersionWindow.h</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 				<string>Controls</string>
 				<string>Common</string>
@@ -298,11 +116,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Controls/Common/FDVersionWindow.m</key>
+		<key>Classes/Controls/Common/FDVersionWindow.m</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 				<string>Controls</string>
 				<string>Common</string>
@@ -310,11 +127,10 @@
 			<key>Path</key>
 			<string>FDVersionWindow.m</string>
 		</dict>
-		<key>Shared/Classes/Categories/</key>
+		<key>Classes/Categories/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -322,11 +138,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Models/</key>
+		<key>Classes/Models/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -334,11 +149,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Managers/</key>
+		<key>Classes/Managers/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -346,11 +160,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Classes/Services/</key>
+		<key>Classes/Services/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Classes</string>
 			</array>
 			<key>Path</key>
@@ -358,20 +171,33 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Views/</key>
+		<key>Classes/AppDelegate.h</key>
 		<dict>
 			<key>Group</key>
-			<string>Shared</string>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>AppDelegate.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/AppDelegate.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>AppDelegate.m</string>
+		</dict>
+		<key>Views/</key>
+		<dict>
 			<key>Path</key>
 			<string>Views</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Views/Controllers/</key>
+		<key>Views/Controllers/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Views</string>
 			</array>
 			<key>Path</key>
@@ -379,11 +205,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Views/Controls/</key>
+		<key>Views/Controls/</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Views</string>
 			</array>
 			<key>Path</key>
@@ -391,66 +216,44 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Resources/</key>
+		<key>Resources/</key>
 		<dict>
-			<key>Group</key>
-			<string>Shared</string>
 			<key>Path</key>
 			<string>Resources</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Shared/Resources/Images.xcassets</key>
+		<key>Resources/Images.xcassets</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Resources</string>
 			</array>
 			<key>Path</key>
 			<string>Images.xcassets</string>
 		</dict>
-		<key>Shared/AppDelegate.h</key>
-		<dict>
-			<key>Group</key>
-			<string>Shared</string>
-			<key>Path</key>
-			<string>AppDelegate.h</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Shared/AppDelegate.m</key>
-		<dict>
-			<key>Group</key>
-			<string>Shared</string>
-			<key>Path</key>
-			<string>AppDelegate.m</string>
-		</dict>
-		<key>Shared/Resources/InfoPlist.strings</key>
+		<key>Resources/InfoPlist.strings</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Resources</string>
 			</array>
 			<key>Path</key>
 			<string>InfoPlist.strings</string>
 		</dict>
-		<key>Shared/Resources/iTunesArtwork</key>
+		<key>Resources/iTunesArtwork</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Resources</string>
 			</array>
 			<key>Path</key>
 			<string>iTunesArtwork</string>
 		</dict>
-		<key>Shared/Resources/iTunesArtwork@2x</key>
+		<key>Resources/iTunesArtwork@2x</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Shared</string>
 				<string>Resources</string>
 			</array>
 			<key>Path</key>
@@ -478,44 +281,27 @@
 		<string>Supporting Files/main.m</string>
 		<string>Supporting Files/Entitlements.entitlements</string>
 		<string>Vendors/</string>
-		<string>Shared/</string>
-		<string>Shared/AppDelegate.h</string>
-		<string>Shared/AppDelegate.m</string>
-		<string>Shared/Resources/</string>
-		<string>Shared/Resources/Images.xcassets</string>
-		<string>Shared/Resources/InfoPlist.strings</string>
-		<string>Shared/Resources/iTunesArtwork</string>
-		<string>Shared/Resources/iTunesArtwork@2x</string>
-		<string>Shared/Views/</string>
-		<string>Shared/Views/Controls/</string>
-		<string>Shared/Views/Controllers/</string>
-		<string>Shared/Classes/</string>
-		<string>Shared/Classes/Services/</string>
-		<string>Shared/Classes/Managers/</string>
-		<string>Shared/Classes/Models/</string>
-		<string>Shared/Classes/Categories/</string>
-		<string>Shared/Classes/Controls/</string>
-		<string>Shared/Classes/Controls/Common</string>
-		<string>Shared/Classes/Controls/Common/FDVersionWindow.h</string>
-		<string>Shared/Classes/Controls/Common/FDVersionWindow.m</string>
-		<string>Shared/Classes/Controllers/</string>
-		<string>Shared/Classes/Common/</string>
-		<string>iPhone/</string>
-		<string>iPhone/Resources/</string>
-		<string>iPhone/Views/</string>
-		<string>iPhone/Views/Controllers/</string>
-		<string>iPhone/Views/Controllers/Common/</string>
-		<string>iPhone/Classes/</string>
-		<string>iPhone/Classes/Controllers/</string>
-		<string>iPhone/Classes/Controllers/Common/</string>
-		<string>iPad/</string>
-		<string>iPad/Resources/</string>
-		<string>iPad/Views/</string>
-		<string>iPad/Views/Controllers/</string>
-		<string>iPad/Views/Controllers/Common/</string>
-		<string>iPad/Classes/</string>
-		<string>iPad/Classes/Controllers/</string>
-		<string>iPad/Classes/Controllers/Common/</string>
+		<string>Resources/</string>
+		<string>Resources/Images.xcassets</string>
+		<string>Resources/InfoPlist.strings</string>
+		<string>Resources/iTunesArtwork</string>
+		<string>Resources/iTunesArtwork@2x</string>
+		<string>Views/</string>
+		<string>Views/Controls/</string>
+		<string>Views/Controllers/</string>
+		<string>Classes/</string>
+		<string>Classes/Services/</string>
+		<string>Classes/Managers/</string>
+		<string>Classes/Models/</string>
+		<string>Classes/Categories/</string>
+		<string>Classes/Controls/</string>
+		<string>Classes/Controls/Common</string>
+		<string>Classes/Controls/Common/FDVersionWindow.h</string>
+		<string>Classes/Controls/Common/FDVersionWindow.m</string>
+		<string>Classes/Controllers/</string>
+		<string>Classes/Common/</string>
+		<string>Classes/AppDelegate.h</string>
+		<string>Classes/AppDelegate.m</string>
 	</array>
 	<key>Platforms</key>
 	<array>
@@ -613,10 +399,10 @@
 							<key>Path</key>
 							<string>HockeySDK.embeddedframework/Resources/HockeySDKResources.bundle</string>
 						</dict>
-						<key>Shared/AppDelegate.m</key>
+						<key>Classes/AppDelegate.m</key>
 						<dict>
 							<key>Group</key>
-							<string>Shared</string>
+							<string>Classes</string>
 							<key>Path</key>
 							<string>AppDelegateHockeyApp.m</string>
 						</dict>

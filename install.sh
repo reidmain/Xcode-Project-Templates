@@ -32,9 +32,6 @@ cp -r *.xctemplate "$installDirectory"
 
 # Create empty directories that the project templates will copy.
 mkdir -p "$installDirectory"/"Base.xctemplate/Supporting Files/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/iPad/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/iPhone/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Shared/"
 mkdir -p "$installDirectory"/"iOS Application.xctemplate/Vendors/"
 mkdir -p "$installDirectory"/"iOS Application.xctemplate/Common/"
 mkdir -p "$installDirectory"/"iOS Application.xctemplate/Classes/"
