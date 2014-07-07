@@ -498,10 +498,6 @@
 	<key>Targets</key>
 	<array>
 		<dict>
-			<key>Frameworks</key>
-			<array>
-				<string>UIKit</string>
-			</array>
 			<key>SharedSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>

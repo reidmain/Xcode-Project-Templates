@@ -68,17 +68,6 @@
 			</array>
 			<key>ProductType</key>
 			<string>com.apple.product-type.application</string>
-			<key>SharedSettings</key>
-			<dict>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>Frameworks</key>
-			<array>
-				<string>Foundation</string>
-				<string>CoreGraphics</string>
-				<string>QuartzCore</string>
-			</array>
 		</dict>
 	</array>
 	<key>Project</key>
