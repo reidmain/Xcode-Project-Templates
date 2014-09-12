@@ -117,6 +117,8 @@
 			</dict>
 			<key>Ad Hoc</key>
 			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
 				<key>USER_HEADER_SEARCH_PATHS</key>
 				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
 				<key>HEADER_SEARCH_PATHS</key>
@@ -124,6 +126,8 @@
 			</dict>
 			<key>App Store</key>
 			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
 				<key>USER_HEADER_SEARCH_PATHS</key>
 				<string>&quot;$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)&quot;/**</string>
 				<key>HEADER_SEARCH_PATHS</key>
