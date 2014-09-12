@@ -89,12 +89,16 @@
 			<string>YES_ERROR</string>
 			<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
 			<string>YES_ERROR</string>
+			<key>CLANG_WARN_UNREACHABLE_CODE</key>
+			<string>YES</string>
 			<key>CLANG_ENABLE_OBJC_ARC</key>
 			<string>YES</string>
 			<key>CLANG_ENABLE_MODULES</key>
 			<string>YES</string>
 			<key>ALWAYS_SEARCH_USER_PATHS</key>
 			<string>NO</string>
+			<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+			<string>YES</string>
 		</dict>
 		<key>Configurations</key>
 		<dict>
